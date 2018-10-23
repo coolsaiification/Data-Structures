@@ -78,6 +78,6 @@ int main() {
       //cout<<endl;
       maxXor = max(maxXor, query(prefix, root));
     }
-    cout<<"Case "<<tit<<": "<<maxXor%<<endl;
+    cout<<"Case "<<tit<<": "<<maxXor<<endl;
   }
 }
