@@ -56,7 +56,8 @@ int main() {
     int n = 7;
     
     mergeSort(arr,0,n-1);
-
+    
+    //Print Sorted Array
     for(int i=0;i<n;i++){
         cout << arr[i] << " ";
     }
