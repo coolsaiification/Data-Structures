@@ -67,7 +67,7 @@ int main(void)
 	root->right->right = newNode(-25);
 	root->right->right->left = newNode(3);
 	root->right->right->right = newNode(4);
-	cout << "Max path sum is " << findMaxSum(root);
+	cout << "Max path sum is : " << findMaxSum(root);
 	return 0;
 }
 
